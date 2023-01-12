@@ -1,0 +1,165 @@
+﻿body {
+}
+
+.main-box {
+        height:auto;
+        width:1325px;
+        float:left;
+        margin:50px 0 0 10px;
+    }
+
+    .left-box {
+        height:350px;
+        width:32%;
+        float:left;
+        margin-left:15px;
+        margin-top:8px;
+        border-radius:10px 10px 10px 10px;
+        -webkit-box-shadow: 0 0px 3px 0.5px rgba(40,40,40,0.3);
+        -moz-box-shadow: 0 0px 3px 0.5px rgba(40,40,40,0.3);
+        box-shadow: 0px 0px 3px 0.5px rgba(40,40,40,0.3);
+    }
+       
+    .middle-box {
+        height:350px;
+        width:32%;
+        float:left;
+        margin-left:15px;
+        margin-top:8px;
+        border-radius:10px 10px 10px 10px;
+        -webkit-box-shadow: 0 0px 3px 0.5px rgba(40,40,40,0.3);
+        -moz-box-shadow: 0 0px 3px 0.5px rgba(40,40,40,0.3);
+        box-shadow: 0px 0px 3px 0.5px rgba(40,40,40,0.3);
+        background-color:rgba(183, 177, 177, 0.30);
+        overflow:auto;
+    }
+
+    .right-box {
+        height:350px;
+        width:32%;
+        float:left;
+        margin-left:15px;
+        margin-top:8px;
+        border-radius:10px 10px 10px 10px;
+        -webkit-box-shadow: 0 0px 3px 0.5px rgba(40,40,40,0.3);
+        -moz-box-shadow: 0 0px 3px 0.5px rgba(40,40,40,0.3);
+        box-shadow: 0px 0px 3px 0.5px rgba(40,40,40,0.3);
+        overflow:auto;
+        background-color:rgba(183, 177, 177, 0.30);
+    }
+
+    .txt-box {
+        border-radius:5px 5px 5px 5px;
+        float:left;
+        margin:20px auto auto 20px;
+        height:160px;
+        width:380px;
+        outline:none;
+    }
+
+    .txt-title {
+        height:30px;
+        width:81%;
+        padding:0 20px 0 20px;
+        border-radius:5px 5px 5px 5px;
+        float:left;
+        border:0.5px solid silver;
+        outline:none;
+        margin:20px 0 0 0;
+        margin-left:20px;
+    }
+
+    .dd-list {
+        height:30px;
+        width:275px;
+        margin:20px auto auto 20px;
+        border-radius:5px 5px 5px 5px;
+        outline:none;
+    }
+
+    .send-btn {
+        border-radius:5px 5px 5px 5px;
+        border:none;
+        outline:none;
+        cursor:pointer;
+        background-color:#1b66dd;
+        color:white;
+    }
+        .send-btn:hover {
+            background-color:#1898b5;
+        }
+
+
+    .out-msg-tbl {
+        width:90%;
+        height:auto;
+        margin:10px 0 0 20px;
+        border-radius:5px 5px 5px 5px;
+        background-color:white;
+    }
+
+    .btn-view {
+        float:left;
+        height:20px;
+        width:75px;
+        background-color:#1b66dd;
+        text-decoration:none;
+        color:white;
+        text-align:center;
+        padding-top:4px;
+        border-radius:5px 5px 5px 5px;
+        margin-left:10px;
+    }
+        .btn-view:hover {
+            background-color:#4d8cef;
+        }
+
+    .btn-del {
+        float:left;
+        height:20px;
+        width:75px;
+        background-color:#e6711a;
+        text-decoration:none;
+        color:white;
+        text-align:center;
+        padding-top:4px;
+        border-radius:5px 5px 5px 5px;
+        margin-left:10px;
+    }
+        .btn-del:hover {
+            background-color:#d81616;
+        }
+
+    .msg-box {
+        height:200px;
+        width:75%;
+        float:left;
+        top:0;
+        margin:-40px 0 0 160px;
+        border-radius:10px 10px 10px 10px;
+        -webkit-box-shadow: 0 0px 3px 0.5px rgba(40,40,40,0.3);
+        -moz-box-shadow: 0 0px 3px 0.5px rgba(40,40,40,0.3);
+        box-shadow: 0px 0px 3px 0.5px rgba(40,40,40,0.3);
+    }
+
+    .msg-text {
+        height:175px;
+        width:95%;
+        float:left;
+        top:0;
+        margin:13px 0 0 25px;
+        border-radius:10px 10px 10px 10px;
+        -webkit-box-shadow: 0 0px 3px 0.5px rgba(40,40,40,0.3);
+        -moz-box-shadow: 0 0px 3px 0.5px rgba(40,40,40,0.3);
+        box-shadow: 0px 0px 3px 0.5px rgba(40,40,40,0.3);
+        overflow:auto;
+    }
+
+    .btn-box {
+        height:175px;
+        width:10%;
+        float:left;
+        top:0;
+        margin:13px 0 0 10px;
+        
+    }

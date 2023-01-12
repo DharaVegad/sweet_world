@@ -1,0 +1,78 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Master_admin.master.cs" Inherits="admin_project_Master_admin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <link href ="StyleSheet.css" rel="stylesheet"/>
+     
+    
+
+    <style type="text/css">
+        .auto-style1 {
+            font-weight: normal;
+        }
+    </style>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class ="container">
+
+            <div class ="content">
+
+                 <%--<ul class="nav navbar-nav navbar-right">
+                         <li><a href="#"><span class="glyphicon glyphicon-user" aria-orientation="vertical"></span> Sign Up</a></li>
+                         <li><a href="#"><span class="glyphicon glyphicon-log-in" aria-orientation="vertical"></span> Login</a></li>
+                    </ul>--%>
+
+
+                <div class ="header">
+                    
+
+                   
+                    
+                    
+                    <center>
+                    <h1>D-Vegad</h1>
+                    </center>
+                    <center>
+                    <h4>CUSTOM BACKPACKS</h4>
+                        </center>
+
+                </div>
+
+                <%--<div class ="top"></div>--%>
+
+                <div class ="left">
+
+                    <center>
+                    <%--<asp:Image ID="Image1" ImageUrl="~/image/backers.jpg" runat="server" Height="406px" Width="537px" />--%>
+                        </center>
+                    <h1 class="auto-style1"><strong>WELCOME BACK!</strong></h1>
+                    <h1 class="auto-style1"><strong>WE MISSED YOU.</strong></h1>
+
+                </div>
+
+               <%-- <div class ="right"></div>--%>
+                
+                 <div>
+                    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+                    </asp:ContentPlaceHolder>
+                </div>
+
+                <div class ="fotter"></div>
+                
+
+            </div>
+       
+
+        </div>
+    </form>
+</body>
+</html>
